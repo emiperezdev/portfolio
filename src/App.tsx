@@ -1,14 +1,10 @@
 import { Grid } from "@chakra-ui/react";
+import { ColorModeIcon } from "./components/ColorModeIcon";
 
 function App() {
   return (
-    <Grid
-      maxWidth="3xl"
-      bg="blue.100"
-      height="100vh"
-      margin='0 auto'
-    >
-
+    <Grid maxWidth="735px" margin="0 auto" position='relative'>
+      <ColorModeIcon />
     </Grid>
   );
 }
