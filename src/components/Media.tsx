@@ -20,21 +20,26 @@ export const Media = () => {
     >
       <Center>
         <Image
+          boxShadow="xl"
           marginBottom="5px"
-          border="7px solid"
+          border="7px solid white"
           src={userImage}
           borderRadius="100%"
         />
       </Center>
       <Box marginLeft={{ md: "15px" }}>
         <Heading
-          fontSize="4xl"
+          fontSize={{ base: "2xl", md: "4xl" }}
           marginTop={{ base: "20px", md: "25px" }}
           marginBottom="5px"
         >
           Emiliano PM
         </Heading>
-        <Text marginBottom="5px">
+        <Text
+          marginX={{ base: "10px", md: '0px'}}
+          marginBottom="5px"
+          fontSize={{ base: "md", md: "lg" }}
+        >
           I'm a passionate web development and design UI/UX.
         </Text>
         <Box marginTop="10px">
@@ -49,6 +54,7 @@ export const Media = () => {
             leftIcon={<IoMdDocument />}
             colorScheme="purple"
             variant="solid"
+            fontSize="md"
           >
             Resume
           </Button>

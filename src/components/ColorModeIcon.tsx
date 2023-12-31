@@ -15,8 +15,8 @@ export const ColorModeIcon = () => {
   return (
     <Icon
       marginTop="25px"
-      boxSize={darkTheme ? '25px' : '22px'}
-      as={darkTheme ? IoMdSunny : FaMoon}
+      boxSize={darkTheme ? '22px' : '25px'}
+      as={darkTheme ? FaMoon : IoMdSunny}
       position="absolute"
       right="22px"
       cursor="pointer"
