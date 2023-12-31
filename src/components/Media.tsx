@@ -13,7 +13,7 @@ export const Media = () => {
         <Image
           boxShadow="xl"
           marginBottom="5px"
-          border="7px solid white"
+          border="4px solid white"
           src={userImage}
           borderRadius="100%"
         />
