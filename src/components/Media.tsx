@@ -1,15 +1,6 @@
-import {
-  Box,
-  Button,
-  Center,
-  Heading,
-  IconButton,
-  Image,
-  Text,
-} from "@chakra-ui/react";
-import { GiBullseye } from "react-icons/gi";
-import { IoMdDocument } from "react-icons/io";
+import { Box, Center, Heading, Image, Text } from "@chakra-ui/react";
 import userImage from "../assets/emiliano.jpg";
+import { MediaButtons } from "./MediaButtons";
 
 export const Media = () => {
   return (
@@ -36,29 +27,13 @@ export const Media = () => {
           Emiliano PM
         </Heading>
         <Text
-          marginX={{ base: "10px", md: '0px'}}
+          marginX={{ base: "20px", md: "0px" }}
           marginBottom="5px"
           fontSize={{ base: "md", md: "lg" }}
         >
           I'm a passionate web development and design UI/UX.
         </Text>
-        <Box marginTop="10px">
-          <IconButton
-            colorScheme="green"
-            aria-label="Search database"
-            icon={<GiBullseye />}
-            fontSize="3xl"
-          />
-          <Button
-            marginLeft="20px"
-            leftIcon={<IoMdDocument />}
-            colorScheme="purple"
-            variant="solid"
-            fontSize="md"
-          >
-            Resume
-          </Button>
-        </Box>
+        <MediaButtons />
       </Box>
     </Box>
   );
