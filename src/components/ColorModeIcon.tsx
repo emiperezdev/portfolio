@@ -1,24 +1,25 @@
 import { Icon, useColorMode } from "@chakra-ui/react";
 import { useState } from "react";
-import { FaSun, FaMoon } from "react-icons/fa";
+import { FaMoon } from "react-icons/fa";
+import { IoMdSunny } from "react-icons/io";
 
 export const ColorModeIcon = () => {
-  const {toggleColorMode} = useColorMode();
+  const { toggleColorMode } = useColorMode();
   const [darkTheme, setDarkTheme] = useState(true);
 
   const handleOnClick = () => {
     setDarkTheme(!darkTheme);
     toggleColorMode();
-  }
+  };
 
   return (
     <Icon
       marginTop="25px"
-      boxSize="21px"
-      as={darkTheme ? FaMoon : FaSun}
-      position='absolute'
-      right='22px'
-      cursor='pointer'
+      boxSize={darkTheme ? '25px' : '22px'}
+      as={darkTheme ? IoMdSunny : FaMoon}
+      position="absolute"
+      right="22px"
+      cursor="pointer"
       onClick={handleOnClick}
     />
   );
