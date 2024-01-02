@@ -14,11 +14,11 @@ export const ColorModeIcon = () => {
 
   return (
     <Icon
-      marginTop="25px"
+      // marginTop="25px"
       boxSize={darkTheme ? '27px' : '21px'}
       as={darkTheme ? IoMdSunny : FaMoon}
-      position="absolute"
-      right="22px"
+      // position="absolute"
+      // right="22px"
       cursor="pointer"
       onClick={handleOnClick}
     />

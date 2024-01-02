@@ -6,7 +6,7 @@ export const Media = () => {
   return (
     <Box
       display={{ md: "flex" }}
-      marginTop="75px"
+      marginTop="220px"
       textAlign={{ base: "center", md: "left" }}
     >
       <Center>
@@ -20,16 +20,16 @@ export const Media = () => {
       </Center>
       <Box marginLeft={{ md: "15px" }}>
         <Heading
-          fontSize={{ base: "2xl", md: "4xl" }}
-          marginTop={{ base: "20px", md: "25px" }}
+          fontSize={{ base: "3xl", md: "5xl" }}
+          marginTop={{ base: "20px", md: "11px" }}
           marginBottom="5px"
         >
           Emiliano PM
         </Heading>
         <Text
-          marginX={{ base: "20px", md: "0px" }}
           marginBottom="5px"
-          fontSize={{ base: "md", md: "lg" }}
+          fontSize={{ base: "lg", md: "xl" }}
+          marginLeft="2px"
         >
           I'm a passionate web development and design UI/UX.
         </Text>
