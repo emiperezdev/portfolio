@@ -1,9 +1,14 @@
 import { HStack } from "@chakra-ui/react";
 import { ColorModeIcon } from "../ColorModeIcon";
 import styles from "./NavBar.module.css";
+
 export const NavBar = () => {
   return (
-    <HStack marginTop="26px" justifyContent={"space-between"}>
+    <HStack
+      display={{ base: "none", md: "flex" }}
+      marginTop="26px"
+      justifyContent={"space-between"}
+    >
       <nav className={styles.nav}>
         <ul>
           <li>
