@@ -1,18 +1,7 @@
-.nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
+.list__items {
+  transition: transform .20s;
 }
 
-.nav li {
-  padding-right: 35px;
-  font-size: 18px;
-}
-
-.nav button {
-  transition: transform .10s
-}
-
-.nav button:hover {
-  transform: scale(1.1);
+.list__items:hover {
+  transform: scale(1.15);
 }

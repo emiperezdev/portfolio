@@ -1,6 +1,6 @@
 import "@fontsource/raleway/400.css";
 import "@fontsource/open-sans/700.css";
-import { Grid } from "@chakra-ui/react";
+import { Grid, Text } from "@chakra-ui/react";
 import { Media } from "./components/Media";
 import { Border } from "./components/Border";
 import "./App.css";

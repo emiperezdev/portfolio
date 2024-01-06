@@ -6,7 +6,7 @@ export const Media = () => {
   return (
     <Box
       display={{ md: "flex" }}
-      marginTop="220px"
+      marginTop={{base: '5px', md: '200px'}}
       textAlign={{ base: "center", md: "left" }}
     >
       <Center>
