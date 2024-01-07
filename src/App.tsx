@@ -1,11 +1,12 @@
 import "@fontsource/raleway/400.css";
 import "@fontsource/open-sans/700.css";
-import { Grid, Text } from "@chakra-ui/react";
+import { Grid } from "@chakra-ui/react";
 import { Media } from "./components/Media";
 import { Border } from "./components/Border";
 import "./App.css";
 import { Experience } from "./components/Experience";
 import { NavBar } from "./components/NavBar/NavBar";
+import { Projects } from "./components/Projects";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Media />
         <Border />
         <Experience />
+        <Projects />
       </Grid>
       <div className="background-gradient"></div>
     </>

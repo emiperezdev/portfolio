@@ -5,7 +5,7 @@ import { TimeLine } from "./TimeLine";
 export const Experience = () => {
   return (
     <>
-      <HStack marginTop="120px">
+      <HStack marginTop="80px">
         <Heading fontSize={{ base: "2xl", md: "3xl" }}>Experience</Heading>
         <Icon
           marginLeft="10px"
