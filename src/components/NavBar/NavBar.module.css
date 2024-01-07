@@ -1,5 +1,5 @@
 .list__items {
-  transition: transform .20s;
+  transition: transform .10s;
 }
 
 .list__items:hover {

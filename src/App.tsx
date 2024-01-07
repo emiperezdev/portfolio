@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Grid
-        paddingX={{ base: "20px", md: "0px" }}
+        paddingX={{ base: "20px", md: "0" }}
         maxWidth="735px"
         margin="0 auto"
       >
