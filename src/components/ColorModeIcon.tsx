@@ -1,22 +1,21 @@
 import { Icon, useColorMode } from "@chakra-ui/react";
-import { useState } from "react";
 import { FaMoon } from "react-icons/fa";
 import { IoMdSunny } from "react-icons/io";
+import useColorModeStore from "../stores/colorModeStore";
 
 export const ColorModeIcon = () => {
   const { toggleColorMode } = useColorMode();
-  const [darkTheme, setDarkTheme] = useState(true);
-
+  const { isDark, colorChange } = useColorModeStore();
   const handleOnClick = () => {
-    setDarkTheme(!darkTheme);
+    colorChange();
     toggleColorMode();
   };
 
   return (
     <Icon
-      marginTop={darkTheme ? '' : '2px'}
-      boxSize={darkTheme ? '27px' : '23px'}
-      as={darkTheme ? IoMdSunny : FaMoon}
+      marginTop={isDark ? "" : "2px"}
+      boxSize={isDark ? "27px" : "23px"}
+      as={isDark ? IoMdSunny : FaMoon}
       cursor="pointer"
       onClick={handleOnClick}
     />

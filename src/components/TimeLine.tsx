@@ -10,7 +10,7 @@ import { GoDotFill } from "react-icons/go";
 
 export const TimeLine = () => {
   return (
-    <Box marginTop="40px">
+    <Box>
       <Heading fontSize="xl" alignItems="center">
         Full-Stack Developer
         <Icon paddingTop="10px" as={GoDotFill} />

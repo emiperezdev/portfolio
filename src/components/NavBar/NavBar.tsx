@@ -36,9 +36,7 @@ export const NavBar = () => {
             </ListItem>
           </List>
         </Show>
-
         <ColorModeIcon />
-
         <Show breakpoint="(max-width: 735px)">
           <Icon
             boxSize="25px"
@@ -49,7 +47,6 @@ export const NavBar = () => {
           />
         </Show>
       </HStack>
-
       <Show breakpoint="(max-width: 735px)">
         <Fade in={isOpen}>
           <List textAlign="center" display={{ base: "", md: "flex" }}>

@@ -18,7 +18,6 @@ export const MediaButtons = () => {
       <Button
         borderRadius="11px"
         marginLeft="15px"
-        // leftIcon={<IoMdDocument />}
         colorScheme="purple"
         variant="solid"
         fontSize="md"
