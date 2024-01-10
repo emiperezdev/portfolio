@@ -7,6 +7,7 @@ import "./App.css";
 import { Experience } from "./components/Experience";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Projects } from "./components/Projects";
+import { Social } from "./components/Social";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Border />
         <Experience />
         <Projects />
+        <Social />
       </Grid>
       <div className="background-gradient"></div>
     </>

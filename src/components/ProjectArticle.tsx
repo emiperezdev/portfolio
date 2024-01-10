@@ -8,7 +8,7 @@ export const ProjectArticle = () => {
   const isDark = useColorModeStore((s) => s.isDark);
 
   return (
-    <Box marginBottom="100px">
+    <Box>
       <Link href="https://game-hub-five-rouge.vercel.app/" target="_blank">
         <Image
           borderRadius="10px"
