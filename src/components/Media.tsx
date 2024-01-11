@@ -1,7 +1,6 @@
 import { Box, Center, Heading, Image, Text } from "@chakra-ui/react";
 import userImage from "../assets/emiliano.jpg";
 import { MediaButtons } from "./MediaButtons";
-import { SocialItems } from "./SocialItems";
 
 export const Media = () => {
   return (

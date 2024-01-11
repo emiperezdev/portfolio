@@ -8,6 +8,7 @@ import { Experience } from "./components/Experience";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Projects } from "./components/Projects";
 import { Social } from "./components/Social";
+import { Email } from "./components/Email";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         paddingX={{ base: "20px", md: "0" }}
         maxWidth="735px"
         margin="0 auto"
+        position='relative'
       >
         <NavBar />
         <Media />
@@ -23,6 +25,7 @@ function App() {
         <Experience />
         <Projects />
         <Social />
+        <Email />
       </Grid>
       <div className="background-gradient"></div>
     </>
