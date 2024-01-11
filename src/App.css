@@ -5,7 +5,7 @@
   z-index: -2;
   height: 100vh;
   width: 100vw;
-  background: radial-gradient(ellipse 30% 20% at 48% 37%, rgba(83, 88, 166, 0.3), rgba(255, 255, 255, 0));
+  background: radial-gradient(ellipse 30% 20% at 48% 32%, rgba(83, 88, 166, 0.3), rgba(255, 255, 255, 0));
 }
 
 body {

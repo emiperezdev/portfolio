@@ -22,11 +22,11 @@ export const NavBar = () => {
       <HStack
         paddingY="10px"
         position="fixed"
-        width='100%'
+        width="100%"
         justifyContent={{ base: "flex-end", md: "space-between" }}
-        maxWidth='735px'
-        margin='0 auto'
-        paddingX='15px'
+        maxWidth="735px"
+        margin="0 auto"
+        paddingX="15px"
         bg={isDark ? "rgba(16, 41, 60, 0.95)" : "rgba(255, 255, 255, .95)"}
       >
         <Show breakpoint="(min-width: 735px)">

@@ -5,8 +5,9 @@ import { MediaButtons } from "./MediaButtons";
 export const Media = () => {
   return (
     <Box
+      id="about"
       display={{ md: "flex" }}
-      marginTop={{base: '5px', md: '200px'}}
+      marginTop={{ base: "5px", md: "200px" }}
       textAlign={{ base: "center", md: "left" }}
     >
       <Center>
