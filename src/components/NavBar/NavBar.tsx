@@ -1,5 +1,4 @@
 import {
-  Box,
   Fade,
   HStack,
   Icon,

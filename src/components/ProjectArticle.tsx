@@ -61,7 +61,7 @@ export const ProjectArticle = () => {
 
           <Icon boxSize="25px" color="#2F74C0" as={FaPhp} />
 
-          <Icon boxSize="25px" color="#25BAAC" as={FaBootstrap} />
+          <Icon boxSize="25px" color="#7432F9" as={FaBootstrap} />
         </HStack>
         <Box marginTop="10px">
           <Link href="https://app.panelabc.com/v1/ingreso" target="_blank">

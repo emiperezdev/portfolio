@@ -9,13 +9,14 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { Projects } from "./components/Projects";
 import { Social } from "./components/Social";
 import { Email } from "./components/Email";
+import { SmallProject } from "./components/SmallProject";
 
 function App() {
   return (
     <>
       <Grid
-        paddingX={{ base: "20px", md: "0" }}
         maxWidth="735px"
+        paddingX={{ base: "20px", md: "0" }}
         margin="0 auto"
         position='relative'
       >
@@ -24,6 +25,7 @@ function App() {
         <Border />
         <Experience />
         <Projects />
+        <SmallProject />
         <Social />
         <Email />
       </Grid>
