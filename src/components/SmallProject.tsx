@@ -15,9 +15,12 @@ export const SmallProject = () => {
   return (
     <Box
       marginTop="50px"
-      border="2px solid"
+      border="1px solid"
       borderRadius="10px"
       padding={"15px"}
+      _hover={{
+        boxShadow: '2px 2px 3px '
+      }}
     >
       <Heading fontSize="xl">Vidly API</Heading>
       <Text marginTop="5px">
