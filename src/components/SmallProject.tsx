@@ -19,7 +19,7 @@ export const SmallProject = () => {
       borderRadius="10px"
       padding={"15px"}
       _hover={{
-        boxShadow: '2px 2px 3px '
+        boxShadow: '0px 1px 3px '
       }}
     >
       <Heading fontSize="xl">Vidly API</Heading>
