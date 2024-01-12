@@ -8,7 +8,7 @@ export const TimeLine = () => {
   return (
     <Box>
       {experiences.map((experience) => (
-        <ExperienceStructure work={experience} />
+        <ExperienceStructure key={experience.date} work={experience} />
       ))}
     </Box>
   );

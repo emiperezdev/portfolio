@@ -8,8 +8,10 @@ interface Props {
 
 export const Technologies = ({ icons }: Props) => {
   return (
-    <HStack spacing="15px" marginBottom='8px' >
-      { icons.map(icon => <TechnologyIcon icon={icon} />)}
+    <HStack spacing="15px" marginBottom="8px">
+      {icons.map((icon) => (
+        <TechnologyIcon key={crypto.randomUUID()} icon={icon} />
+      ))}
     </HStack>
   );
 };
