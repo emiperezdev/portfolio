@@ -1,4 +1,4 @@
-import { Card, CardBody, HStack, Icon, Link, Text } from "@chakra-ui/react";
+import { Box, Card, CardBody, HStack, Icon, Link, Text } from "@chakra-ui/react";
 import { IconType } from "react-icons";
 
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
 
 export const SocialItem = ({ icon, sizeIcon, color, title, link }: Props) => {
   return (
-    <>
+    <Box maxWidth='170px'>
       <Link
         href={link}
         _hover={{
@@ -35,6 +35,6 @@ export const SocialItem = ({ icon, sizeIcon, color, title, link }: Props) => {
           </CardBody>
         </Card>
       </Link>
-    </>
+    </Box>
   );
 };
