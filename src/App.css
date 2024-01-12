@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: 63.5%;
+}
+
 .background-gradient {
   position: absolute;
   top: 0;
@@ -12,7 +18,25 @@
   background: radial-gradient(ellipse 30% 20% at 48% 32%, rgba(83, 88, 166, 0.3), rgba(255, 255, 255, 0));
 }
 
-body {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+p {
+  font-size: 1rem;
 }
+
+li {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 735px) {
+  p {
+    font-size: 1.1rem;
+  }
+
+  li {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+

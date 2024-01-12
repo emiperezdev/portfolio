@@ -8,7 +8,7 @@ interface Props {
 
 export const ProjectStructure = ({ project }: Props) => {
   return (
-    <Box marginBottom='38px'>
+    <Box marginBottom="38px">
       <Link href={project.liveLink} target="_blank">
         <Image borderRadius="10px" src={project.image} />
       </Link>
@@ -18,15 +18,14 @@ export const ProjectStructure = ({ project }: Props) => {
       <Text marginBottom="8px">{project.description}</Text>
       <Technologies icons={project.icons} />
       <Box marginTop="10px">
-        <Link href={project.liveLink} target="_blank">
-          <Button marginRight="10px">Live</Button>
-        </Link>
-
         {project.codeLink ? (
           <Link href={project.codeLink} target="_blank">
             <Button marginRight="10px">Code</Button>
           </Link>
         ) : null}
+        <Link href={project.liveLink} target="_blank">
+          <Button marginRight="10px">Live</Button>
+        </Link>
       </Box>
     </Box>
   );
