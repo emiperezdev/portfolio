@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import works from "../data/works";
+import works from "../../data/works";
 import { ExperienceStructure } from "./ExperienceStructure";
 
 export const TimeLine = () => {
@@ -7,7 +7,9 @@ export const TimeLine = () => {
 
   return (
     <Box>
-      {experiences.map(experience => <ExperienceStructure work={experience} />)}
+      {experiences.map((experience) => (
+        <ExperienceStructure work={experience} />
+      ))}
     </Box>
   );
 };

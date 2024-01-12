@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SocialItem } from "./SocialItem";
 import { FaInstagram } from "react-icons/fa";
-import useColorModeStore from "../stores/colorModeStore";
+import useColorModeStore from "../../stores/colorModeStore";
 
 export const SocialItems = () => {
   const isDark = useColorModeStore((s) => s.isDark);

@@ -7,7 +7,7 @@ import {
   ListItem,
 } from "@chakra-ui/react";
 import { GoDotFill } from "react-icons/go";
-import { Work } from "../data/works";
+import { Work } from "../../data/works";
 
 interface Props {
   work: Work;
@@ -27,15 +27,9 @@ export const ExperienceStructure = ({ work }: Props) => {
       </Text>
 
       <UnorderedList width="70%">
-        <ListItem marginBottom="10px">
-          {work.what}
-        </ListItem>
-        <ListItem marginBottom="10px">
-          {work.whatFor}
-        </ListItem>
-        <ListItem marginBottom="10px">
-          {work.result}
-        </ListItem>
+        <ListItem marginBottom="10px">{work.what}</ListItem>
+        <ListItem marginBottom="10px">{work.whatFor}</ListItem>
+        <ListItem marginBottom="10px">{work.result}</ListItem>
       </UnorderedList>
     </Box>
   );

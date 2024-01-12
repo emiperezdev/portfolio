@@ -1,6 +1,6 @@
 import { FaStarHalfAlt } from "react-icons/fa";
+import { HeadingText } from "../HeadingText";
 import { ProjectArticle } from "./ProjectArticle";
-import { HeadingText } from "./HeadingText";
 
 export const Projects = () => {
   return (

@@ -1,5 +1,5 @@
 import { PiSuitcaseSimpleFill } from "react-icons/pi";
-import { TimeLine } from "../TimeLine";
+import { TimeLine } from "./TimeLine";
 import { HeadingText } from "../HeadingText";
 
 export const Experience = () => {

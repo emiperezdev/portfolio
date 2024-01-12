@@ -8,8 +8,8 @@ import {
   Link,
   Text,
 } from "@chakra-ui/react";
-import gamehubLight from "../assets/game-hub-white.webp";
-import cartWhite from "../assets/cart-white.webp";
+import gamehubLight from "../../assets/game-hub-white.webp";
+import cartWhite from "../../assets/cart-white.webp";
 import { Technologies } from "./Technologies";
 import { GrMysql } from "react-icons/gr";
 import { FaPhp } from "react-icons/fa";

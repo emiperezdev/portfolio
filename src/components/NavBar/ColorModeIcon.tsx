@@ -1,7 +1,7 @@
 import { Icon, useColorMode } from "@chakra-ui/react";
 import { FaMoon } from "react-icons/fa";
 import { IoMdSunny } from "react-icons/io";
-import useColorModeStore from "../stores/colorModeStore";
+import useColorModeStore from "../../stores/colorModeStore";
 
 export const ColorModeIcon = () => {
   const { toggleColorMode } = useColorMode();

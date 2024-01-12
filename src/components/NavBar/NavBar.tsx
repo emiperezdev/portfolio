@@ -8,7 +8,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { CiMenuFries } from "react-icons/ci";
-import { ColorModeIcon } from "../ColorModeIcon";
+import { ColorModeIcon } from "./ColorModeIcon";
 import styles from "./NavBar.module.css";
 import useColorModeStore from "../../stores/colorModeStore";
 
