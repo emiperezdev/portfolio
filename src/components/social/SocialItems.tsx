@@ -1,4 +1,4 @@
-import { GridItem, HStack, SimpleGrid } from "@chakra-ui/react";
+import { GridItem, SimpleGrid } from "@chakra-ui/react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SocialItem } from "./SocialItem";
