@@ -4,7 +4,7 @@ import { Grid } from "@chakra-ui/react";
 import { Media } from "./components/Media";
 import { Border } from "./components/Border";
 import "./App.css";
-import { Experience } from "./components/Experience";
+import { Experience } from "./components/experience/Experience";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Projects } from "./components/Projects";
 import { Social } from "./components/Social";
@@ -18,7 +18,7 @@ function App() {
         maxWidth="735px"
         paddingX={{ base: "20px", md: "0" }}
         margin="0 auto"
-        position='relative'
+        position="relative"
       >
         <NavBar />
         <Media />
