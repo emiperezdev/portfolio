@@ -60,16 +60,16 @@ export const NavBar = () => {
         <Fade in={isOpen}>
           <List textAlign="center" display={{ base: "", md: "flex" }}>
             <ListItem borderBottom="1px solid" marginY="10px">
-              <a href="#">Experience</a>
+              <a href="#experience">Experience</a>
             </ListItem>
             <ListItem borderBottom="1px solid" marginY="10px">
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </ListItem>
             <ListItem borderBottom="1px solid" marginY="10px">
-              <a href="#">About me</a>
+              <a href="#about">About me</a>
             </ListItem>
             <ListItem borderBottom="1px solid" marginY="10px">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </ListItem>
           </List>
         </Fade>

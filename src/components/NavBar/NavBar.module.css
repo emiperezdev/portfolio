@@ -1,7 +1,8 @@
 .list__items {
   transition: transform .10s;
+  font-size: 1.2rem;
 }
 
 .list__items:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }

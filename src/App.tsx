@@ -18,7 +18,6 @@ function App() {
         maxWidth="735px"
         paddingX={{ base: "20px", md: "0" }}
         margin="0 auto"
-        position="relative"
         as='main'
       >
         <NavBar />

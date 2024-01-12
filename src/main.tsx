@@ -4,11 +4,12 @@ import App from "./App.tsx";
 import "./index.css";
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 import theme from "./components/theme.ts";
+import './localStorageHandler';
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <ColorModeScript initialColorMode={theme.config.ini} />
+      <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <App />
     </ChakraProvider>
   </React.StrictMode>
