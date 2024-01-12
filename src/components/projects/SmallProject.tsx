@@ -14,7 +14,6 @@ import { SiExpress, SiTypescript } from "react-icons/si";
 export const SmallProject = () => {
   return (
     <Box
-      marginTop="50px"
       border="1px solid"
       borderRadius="10px"
       padding={"15px"}
