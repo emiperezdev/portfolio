@@ -14,6 +14,7 @@ export const NavBar = () => {
     <>
       <Show above="750px">
         <HStack
+          zIndex='1'
           paddingY="10px"
           position="fixed"
           width="100%"
