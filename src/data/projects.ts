@@ -40,7 +40,7 @@ const projects: Project[] = [
     image: cartImage,
     title: "Cart",
     description:
-      "Inventory management and sales control system with an authentication of users.",
+      "User: user, Password: user. Inventory management and sales control system with an authentication of users.",
     icons: [
       { icon: GrMysql, size: "25px", color: "#00c6f7" },
       { icon: FaPhp, size: "25px", color: "#2F74C0" },
