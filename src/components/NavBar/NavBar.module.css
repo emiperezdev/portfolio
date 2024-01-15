@@ -1,3 +1,13 @@
+/* COLLAPSIBLES */
+
+.collapsible {
+  position: fixed;
+  padding-top: 10px;
+  z-index: 1;
+  width: 100%;
+}
+
+
 .list__items {
   transition: transform .10s;
   font-size: 1.2rem;

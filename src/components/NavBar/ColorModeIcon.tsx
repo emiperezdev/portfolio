@@ -13,6 +13,9 @@ export const ColorModeIcon = () => {
 
   return (
     <Icon
+      _hover={{
+        transform: 'scale(1.1)'
+      }}
       marginTop={isDark ? "" : "2px"}
       boxSize={isDark ? "27px" : "23px"}
       as={isDark ? IoMdSunny : FaMoon}
