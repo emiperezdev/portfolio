@@ -23,10 +23,10 @@ export const SmallProject = () => {
     >
       <Heading fontSize="xl">Vidly API</Heading>
       <Text marginTop="5px">
-        This project is the backend of Vidly, an imaginary video rental app.{" "}
+        This project is the backend of Vidly, an API restful for an imaginary video rental app.{" "}
       </Text>
       <Text marginTop="5px">
-        It saves de data in MongoDB, uses authentication and authorization.
+        It controls the data in MongoDB, uses authentication and authorization.
       </Text>
       <HStack marginY={"5px"} spacing="15px" marginBottom="8px">
         <Icon boxSize="25px" color="#026E00" as={FaNodeJs} />
