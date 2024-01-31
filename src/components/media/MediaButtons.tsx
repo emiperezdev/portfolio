@@ -1,7 +1,7 @@
 import { IconButton, Button, Box, Tooltip, Icon } from "@chakra-ui/react";
 import { GiBullseye } from "react-icons/gi";
 import { IoMdDocument } from "react-icons/io";
-import cv from "../../assets/Em";
+import cv from "../../assets/Emiliano_Perez_Murillo_CV.pdf";
 
 export const MediaButtons = () => {
   const downLoadCV = () => {
