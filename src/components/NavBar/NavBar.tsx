@@ -20,7 +20,7 @@ export const NavBar = () => {
           width="100%"
           justifyContent={{ base: "flex-end", md: "space-between" }}
           maxWidth="735px"
-          margin="0 auto"
+          marginTop="1rem"
           paddingX="15px"
           bg={isDark ? "rgba(16, 41, 60, 0.95)" : "rgba(255, 255, 255, .95)"}
         >
@@ -66,16 +66,16 @@ export const NavBar = () => {
               textAlign="center"
               display={{ base: "", md: "flex" }}
             >
-              <ListItem borderBottom="1px solid" marginY="10px">
+              <ListItem marginY="10px">
                 <a href="#experience">Experience</a>
               </ListItem>
-              <ListItem borderBottom="1px solid" marginY="10px">
+              <ListItem marginY="10px">
                 <a href="#projects">Projects</a>
               </ListItem>
-              <ListItem borderBottom="1px solid" marginY="10px">
+              <ListItem marginY="10px">
                 <a href="#about">About me</a>
               </ListItem>
-              <ListItem borderBottom="1px solid" marginY="10px">
+              <ListItem marginY="10px">
                 <a href="#contact">Contact</a>
               </ListItem>
             </List>

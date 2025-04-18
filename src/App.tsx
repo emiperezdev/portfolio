@@ -29,7 +29,6 @@ function App() {
         <SocialSection />
         <EmailSection />
       </Grid>
-      <div className="background-gradient"></div>
     </>
   );
 }

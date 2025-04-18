@@ -1,11 +1,7 @@
 import { IconType } from "react-icons";
 import gameHubImage from "../assets/game-hub-white.webp";
-import cartImage from "../assets/cart-white.webp";
 import { FaReact } from "react-icons/fa";
 import { SiChakraui, SiTypescript } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
-import { FaPhp } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
 
 export interface IconTech {
   icon: IconType;
