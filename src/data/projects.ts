@@ -36,18 +36,6 @@ const projects: Project[] = [
     liveLink: "https://game-hub-five-rouge.vercel.app/",
     codeLink: "https://github.com/emiperezdev/game-hub",
   },
-  {
-    image: cartImage,
-    title: "Cart",
-    description:
-      "User: user, Password: user. Inventory management and sales control system with an authentication of users.",
-    icons: [
-      { icon: GrMysql, size: "25px", color: "#00c6f7" },
-      { icon: FaPhp, size: "25px", color: "#2F74C0" },
-      { icon: FaBootstrap, size: "25px", color: "#7432F9" },
-    ],
-    liveLink: "https://app.panelabc.com/v1/ingreso",
-  },
 ];
 
 export default projects;

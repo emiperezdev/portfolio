@@ -15,7 +15,7 @@ interface Props {
 
 export const ExperienceStructure = ({ work }: Props) => {
   return (
-    <Box>
+    <Box marginBottom={'50px'}>
       <Heading fontSize="xl" alignItems="center">
         {work.position}
         <Icon paddingTop="10px" as={GoDotFill} />
@@ -27,10 +27,13 @@ export const ExperienceStructure = ({ work }: Props) => {
       </Text>
 
       <UnorderedList width="70%">
-        <ListItem marginBottom="10px">{work.what}</ListItem>
-        <ListItem marginBottom="10px">{work.whatFor}</ListItem>
-        <ListItem marginBottom="10px">{work.result}</ListItem>
+        {work.what && <ListItem fontSize={'1.1rem'} marginBottom="10px">{work.what}</ListItem>}
+        {work.whatFor && (
+          <ListItem fontSize={'1.1rem'} marginBottom="10px">{work.whatFor}</ListItem>
+        )}
+        {work.result && <ListItem fontSize={'1.1rem'} marginBottom="10px">{work.result}</ListItem>}
       </UnorderedList>
+      
     </Box>
   );
 };

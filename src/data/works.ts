@@ -3,13 +3,25 @@ export interface Work {
   company: string;
   date: string;
   what: string;
-  whatFor: string;
-  result: string;
+  whatFor?: string;
+  result?: string;
 }
 
 const works: Work[] = [
   {
+    position: "Backend Developer",
+    company: "CBQA Solutions",
+    date: "September 2024 - Present",
+    what: "Back End Developer, working on both new and existing projects, building and maintaining APIs for mobile and web platforms.",
+  },
+  {
     position: "Full Stack Developer",
+    company: "Financial Solutions",
+    date: "February 2024 - September 2024",
+    what: "Fullstack web developer in the software assurance area. I solved incidences and added new features to existing projects. I worked with Docker, Java, React,  SQL and AWS services.",
+  },
+  {
+    position: "Freelance",
     company: "Imprenta ABC",
     date: "January 2023 - March 2023",
     what: "Inventory management and sales control system.",
