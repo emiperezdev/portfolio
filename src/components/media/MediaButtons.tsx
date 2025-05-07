@@ -25,22 +25,24 @@ export const MediaButtons = () => {
         />
       </Tooltip>
 
-      <Button
-        borderRadius="11px"
-        marginLeft="15px"
-        colorScheme="purple"
-        variant="solid"
-        fontSize="md"
-        onClick={downLoadCV}
-      >
-        <Icon
-          marginBottom="2px"
-          as={IoMdDocument}
-          fontSize="20px"
-          marginRight="13px"
-        />
-        Resume
-      </Button>
+      <Tooltip hasArrow label="Download CV">
+        <Button
+          borderRadius="11px"
+          marginLeft="15px"
+          colorScheme="purple"
+          variant="solid"
+          fontSize="md"
+          onClick={downLoadCV}
+        >
+          <Icon
+            marginBottom="2px"
+            as={IoMdDocument}
+            fontSize="20px"
+            marginRight="8px"
+          />
+          CV
+        </Button>
+      </Tooltip>
     </Box>
   );
 };
