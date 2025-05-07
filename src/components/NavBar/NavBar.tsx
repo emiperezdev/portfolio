@@ -20,7 +20,6 @@ export const NavBar = () => {
           width="100%"
           justifyContent={{ base: "flex-end", md: "space-between" }}
           maxWidth="735px"
-          marginTop="1rem"
           paddingX="15px"
           bg={isDark ? "rgba(16, 41, 60, 0.95)" : "rgba(255, 255, 255, .95)"}
         >
