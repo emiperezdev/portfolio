@@ -12,7 +12,7 @@ const works: Work[] = [
     position: "Backend Developer",
     company: "CBQA Solutions",
     date: "September 2024 - Present",
-    what: "Back End Developer, working on both new and existing projects, building and maintaining APIs for mobile and web platforms.",
+    what: "Back End Developer, working on both new and existing projects, focused on building and maintaining scalable and reliable APIs for mobile and web platforms.",
   },
   {
     position: "Full Stack Developer",

@@ -32,7 +32,7 @@ export const Media = () => {
           fontSize={{ base: "lg", md: "xl" }}
           marginLeft="2px"
         >
-          I'm a passionate full stack web developer.
+          I'm a passionate full stack developer.
         </Text>
         <MediaButtons />
       </Box>
