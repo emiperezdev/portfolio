@@ -18,7 +18,7 @@ export const SocialItems = () => {
         <SocialItem
           icon={FaLinkedin}
           sizeIcon="28px"
-          link="https://www.linkedin.com/in/emiliano-p%C3%A9rez-247985219/"
+          link="https://www.linkedin.com/in/emiliano-perez-247985219/"
           title="LinkedIn"
           color="#0284C7"
         />
